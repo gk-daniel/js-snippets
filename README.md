@@ -1,7 +1,7 @@
 ## JavaScript Snippets Hub
 
 <p align="center">
-  <img src="./00-config/02-assets/js_snippets.jpg" alt="Snippets for JavaScript" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="./00-config/02-assets/js_snippets.jpg" alt="Snippets for JavaScript" height="300" width="320" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 ## Table of Contents
