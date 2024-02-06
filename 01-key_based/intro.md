@@ -56,7 +56,7 @@ _<em> test </em>_
 5. check
 6. find
 7. convert
-8. filter
+8. sort
 
 #### 3. Result
 
