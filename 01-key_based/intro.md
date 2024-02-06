@@ -8,7 +8,9 @@ Welcome to the key base approach. This approach is based on the layout of the ke
 
 *<em> - We can split our keyboard into three levels: </em>*
 
-![Alt text](../00-config/02-assets/keyboard.png)
+<p align="center">
+  <img src="../00-config/02-assets/keyboard.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+</p>
 
 *<em> - Navigate to the project directory using the cd command: </em>*
 
