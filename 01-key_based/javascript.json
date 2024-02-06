@@ -1,0 +1,793 @@
+{
+	// ? ==================================
+	// ? 1_JavaScript
+	// ? ==================================
+	// ! 1_Numbers
+	// ! 2_String
+	// ! 3_Boolean
+	// ! 4_Array
+	// ! 5_Object
+	// ! 6_Function
+	// ? ==================================
+	// ?
+	// ! ==================================
+	// ! 1_Numbers
+	// ! ==================================
+	"1": {
+	  "prefix": "jq0-num ==================== numbers",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§q7": {
+	  "prefix": "jq7-num ---- calc |",
+	  "body": [
+		"// ! ==================",
+		"// ! calculation",
+		"// ! ==================",
+		"",
+		"5.05.toFixed",
+		"5.05.toFixed",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 7 | calculation
+	"§q8": {
+	  "prefix": "jq8-num ---- conv |",
+	  "body": [
+		"// ! ==================",
+		"// ! convert",
+		"// ! ==================",
+		"",
+		"+'5'",
+		"Number()",
+		"parseInt(10)",
+		"parseFloat(10)",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 8 | convert
+	"1-": {
+	  "prefix": "jqi ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	},
+	// ! ==================================
+	// ! 2_String
+	// ! ==================================
+	"2": {
+	  "prefix": "jw0-str ==================== string",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§w2": {
+	  "prefix": "jw2-str ----- get |",
+	  "body": [
+		"let str = 'hello woeld'",
+		"",
+		"// ! ==================",
+		"// ! get",
+		"// ! ==================",
+		"",
+		"// ? invoking",
+		"",
+		"str",
+		"",
+		"// ? latter",
+		"",
+		"str.charAt(2) // hel",
+		"",
+		"// ? word",
+		"",
+		"str.split(1) // world",
+		"",
+		"// ? string",
+		"",
+		"str.slice(-4) // hello w",
+		"str.substr(0,2) // hel",
+		"str.replace('o','a') // Hella warld",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 2 | get
+	"§w7": {
+	  "prefix": "jw7-str ---- calc |",
+	  "body": [
+		"// ! ==================",
+		"// ! calculation",
+		"// ! ==================",
+		"",
+		"'Hello World'.length",
+		"'Hello World'.toUpperCase()",
+		"'Hello World'.toLowerCase()",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 7 | calculation
+	"§w8": {
+	  "prefix": "jw8-str ---- conv |",
+	  "body": [
+		"// ! ==================",
+		"// ! convert",
+		"// ! ==================",
+		"",
+		"5 + ''",
+		"5.toString()",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 8 | convert
+	"-2": {
+	  "prefix": "jwi ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	},
+	// ! ==================================
+	// ! 3_Boolean
+	// ! ==================================
+	"3": {
+	  "prefix": "je0-bln ==================== boolean",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§e5": {
+	  "prefix": "je7-bln ---- calc |",
+	  "body": [
+		"// ! ==================",
+		"// ! check",
+		"// ! ==================",
+		"",
+		"// ? true",
+		"",
+		"// Boolean(10) is true",
+		"// Boolean('GeeksforGeeks') is true",
+		"// Boolean(2.74) is true",
+		"// Boolean(-1) is true",
+		"// Boolean('true') is true",
+		"// Boolean('false') is true",
+		"// Boolean(3 * 2 + 1.11) is true",
+		"// Boolean(1<2) is true",
+		"",
+		"// ? false",
+		"",
+		"// Boolean(0) is false",
+		"// Boolean('') is false",
+		"// Boolean(e) undefined is false",
+		"// Boolean(-0) is false",
+		"// Boolean(false) is false",
+		"// Boolean(NaN) is false",
+		"// Boolean(null) is false",
+		"// Boolean(1>2) is false",
+		"",
+		"!${1:value} // opposite value",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 7 | calculation
+	"§e8": {
+	  "prefix": "je8-bln ---- conv |",
+	  "body": [
+		"// ! ==================",
+		"// ! convert",
+		"// ! ==================",
+		"",
+		"!!${1:value}"
+	  ],
+	  "description": "?.help"
+	}, // 8 | convert
+	"-3": {
+	  "prefix": "jei ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	},
+	// ! ==================================
+	// ! 4_Array
+	// ! ==================================
+	"4": {
+	  "prefix": "ja0-arr ==================== array",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§a1": {
+	  "prefix": "ja1-arr ----- set |",
+	  "body": [
+		"// ! ==================",
+		"// ! set",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// * constructive declaration",
+		"",
+		"let array1 = [1,2,3]",
+		"console.log(array1); // [1, 2, 3]",
+		"",
+		"// * destructive declaration",
+		"",
+		"({a, b} = {a:1, b:2})",
+		"console.log(a); // 1",
+		"console.log(b); // 2",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"let array2 = new Array(10)",
+		"array1.fill('content')"
+	  ],
+	  "description": "* => _"
+	}, // 1 | set
+	"§a2": {
+	  "prefix": "ja2-arr ----- get |",
+	  "body": [
+		"// ! ==================",
+		"// ! get",
+		"// ! ==================",
+		"",
+		"// declaration",
+		"let array = [1,2,3]",
+		"let result, i, i1, i2 = 0",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// invoking",
+		"array[1]",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"// extract value and make operation from array [x*1]",
+		"array.map(x => x*1)",
+		"",
+		"// extract object from array [{},{}]",
+		"const newArray = this.subNavigation.map(({ name, image, url_path }) => ({ name, image, url_path }))",
+		"",
+		"array.forEach((element, index, array) => { array[index] = element.toUpperCase })",
+		"",
+		"for(let i = 0; i < array.length; i++) {",
+		"console.log('%c | array[i]', 'color: yellow', array[i])    ",
+		"}",
+		"",
+		"while(i1 < array.length) { ",
+		"    i1++ ",
+		"} ",
+		"",
+		"do { ",
+		"    i2 = i2 + 1 ",
+		"    result = result + i ",
+		"} while (i2 < 5)"
+	  ],
+	  "description": "* => _"
+	}, // 2 | get
+	"§a3": {
+	  "prefix": "ja3-arr ----- add |",
+	  "body": [
+		"// ! ==================",
+		"// ! add",
+		"// ! ==================",
+		"",
+		"let array1 = [1,2,3,]",
+		"let array2 = []",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"array1.unshift('World')  // add as a first element ",
+		"array1.push('World') // add as a first element ",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"array1 = [...array2] // add values in any place",
+		"array1['content'].map((x) => {array1.push(x['value']); })  // add first values",
+		"array1.concat(array2) // add array into another array",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 3 | add
+	"§a4": {
+	  "prefix": "ja4-arr ----- del |",
+	  "body": [
+		"// ! ==================",
+		"// ! delete",
+		"// ! ==================",
+		"",
+		"let array1 = [1,2,3]",
+		"let array2 = []",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"array1.shift() // remove first element",
+		"array1.pop() // remove first element",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"array1.splice(1, 1, 'World') // remove amount of elementis into array",
+		"delete array1[0] // remove value without array reindexation ",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 4 | delete
+	"§a5": {
+	  "prefix": "ja5-arr --- check |",
+	  "body": [
+		"// ! ==================",
+		"// ! check",
+		"// ! ==================",
+		"",
+		"let array = ['Hello']",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// * check if an element exist in array",
+		"[12, 5, 8, 1, 4].some((x) => x > 10)",
+		"// Expected output: true",
+		"",
+		"// * check if elements exist in array",
+		"[12, 5, 8, 1, 4].every((element, index, array) => { /* … */ })",
+		"// Expected output: true / false",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 5 | check
+	"§a6": {
+	  "prefix": "ja6-arr ---- find |",
+	  "body": [
+		"// ! ==================",
+		"// ! find",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"array.find(value => value === 'Hello') // return value in array with condition",
+		"//// return value in array with two condition",
+		"//// const { uvp, special_price } = props.product",
+		"//// const price = [special_price].find((value) => uvp > value) !== undefined",
+		"",
+		"array.indexOf('Hello') // return first index of primitive value in array",
+		"array.lastIndexOf('Hello') // return last index of primitive value in array",
+		"const isLargeNumber = (element) => element === 'Hello' // return index of complex value in array",
+		"console.log(array1.findIndex(isLargeNumber))",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"array.reverse() // return array in reverse order"
+	  ],
+	  "description": "* => _"
+	}, // 6 | find
+	"§a7": {
+	  "prefix": "ja7-arr ---- conv |",
+	  "body": [
+		"// ! ==================",
+		"// ! convert",
+		"// ! ==================",
+		"",
+		"// * calculate amount of elements in array",
+		"let general = [1,2,3]",
+		"variable[0]",
+		"variable.length",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 7 | convert
+	"§a8": {
+	  "prefix": "ja8-arr ---- calc |",
+	  "body": [
+		"// ! ==================",
+		"// ! calculation",
+		"// ! ==================",
+		"",
+		"// * calculate amount of elements in array",
+		"[1,2].reduce((a,b) => a + b, 0)",
+		"",
+		"[1,2].join('optional: symbol')",
+		"",
+		"let ${1:variable} = (a1) => {",
+		"\treturn a1 ${2:* 10}",
+		"}",
+		"",
+		"let ${3:arrayInit} = [${4:65, 44, 12, 4}]",
+		"let ${5:arrayFinal} = ${3:arrayInit}.map(${1:function})"
+	  ],
+	  "description": "* => _"
+	}, // 8 | calculation
+	"§a9": {
+	  "prefix": "ja9-arr ---- sort |",
+	  "body": [
+		"// ! ==================",
+		"// ! sorting",
+		"// ! ==================",
+		"",
+		"// * sorting elements",
+		"",
+		"let ${1:arrayfiltered} = ${2:array}.filter(function(e){",
+		"\treturn e.indexOf('u') === -1",
+		"})",
+		"",
+		"${1:array}.sort()",
+		"",
+		"${1:array}.sort(function(a, b){",
+		"\t return b - a",
+		"}"
+	  ],
+	  "description": "* => _"
+	}, // 9 | sorting
+	"-4": {
+	  "prefix": "jaii ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	},
+	// ! ==================================
+	// ! 5_Object
+	// ! ==================================
+	"5": {
+	  "prefix": "js0-obj ==================== object",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§s1": {
+	  "prefix": "js1-obj ----- set |",
+	  "body": [
+		"// ! ==================",
+		"// ! set",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"const product = {",
+		"price: 50,",
+		"uvp: 50,",
+		"special: 50,",
+		"}",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"const { uvp, price, special } = product.prop"
+	  ],
+	  "description": "* => _"
+	}, // 1 | set
+	"§s2": {
+	  "prefix": "js2-obj ----- get |",
+	  "body": [
+		"// ! ==================",
+		"// ! get",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// declaration ",
+		"const product = {",
+		"price: 50,",
+		"uvp: 50,",
+		"special: 50,",
+		"}",
+		"",
+		"product.price // 50",
+		"",
+		"const {price} = product",
+		"",
+		"// * get key of object inside expression",
+		"this.price",
+		"// * get key of object inside expression",
+		"product.call(price)",
+		"// * borrow a method from another object",
+		"product.bind(price)",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"// * Object.create ",
+		"const originalObj = {a: 1, b: 2};",
+		"const newObj = Object.create(originalObj);",
+		"console.log(newObj.a); // 1",
+		"console.log(newObj.b); // 2",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 2 | get
+	"§s3": {
+	  "prefix": "js3-obj ----- add |",
+	  "body": [
+		"// ! ==================",
+		"// ! add",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// * create a new object",
+		"const obj = { a: 1 }",
+		"const copy = Object.assign({}, obj)",
+		"console.log(copy); // { a: 1 }",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"// * change a current one",
+		"const obj1 = {a: 1, b: 2};",
+		"const obj2 = {c: 3, d: 4};",
+		"const obj3 = {e: 5, f: 6};",
+		"const mergedObj = {...obj1, ...obj2, ...obj3};",
+		"console.log(mergedObj); // {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6}",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 3 | add
+	"§s4": {
+	  "prefix": "js4-obj ----- del |",
+	  "body": [
+		"// ! ==================",
+		"// ! delete",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"const obj = {a: 1, b: 2};",
+		"delete obj.b;",
+		"console.log(obj); // {a: 1}",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"const obj = {a: 1, b: 2}",
+		"const newObj = Object.assign({}, obj)",
+		"obj = null",
+		"console.log(newObj) // {a: 1, b: 2}"
+	  ],
+	  "description": "* => _"
+	}, // 4 | delete
+	"§s5": {
+	  "prefix": "js5-obj --- check |",
+	  "body": [
+		"// ! ==================",
+		"// ! check",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"const obj1 = {a: 1, b: 2, c: 3}",
+		"const values = Object.values(obj1)",
+		"",
+		"console.log(values.includes(2)) // true",
+		"console.log(values.includes(4)) // false",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"const obj2 = {a: 1, b: 2, c: 3};",
+		"",
+		"for (const key in obj2) {",
+		"  if (obj2[key] === 2) {",
+		"    console.log('Value 2 exists in object');",
+		"  }",
+		"}",
+		"",
+		"const obj3 = {a: 1, b: 2, c: 3}",
+		"const entries = Object.entries(obj3)",
+		"const hasValueTwo = entries.some(([key, value]) => value === 2)",
+		"console.log(hasValueTwo) // true"
+	  ],
+	  "description": "* => _"
+	}, // 5 | check
+	"§s6": {
+	  "prefix": "js6-obj ---- find |",
+	  "body": [
+		"// ! ==================",
+		"// ! find",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"if (obj.key2) {",
+		"console.log(obj.key2)",
+		"}",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"if (obj.hasOwnProperty('key2')) {",
+		"console.log(obj.key2)",
+		"}",
+		"if ('key2' in obj) {",
+		"console.log(obj.key2)",
+		"}"
+	  ],
+	  "description": "* => _"
+	}, // 6 | find
+	"§s7": {
+	  "prefix": "js7-obj ---- conv |",
+	  "body": [
+		"// ! ==================",
+		"// ! convert",
+		"// ! ==================",
+		"",
+		"const obj = {a: 1, b: 2, c: 3};",
+		"const str = JSON.stringify(obj);",
+		"const num = parseInt(str);",
+		"// * convert into numbers",
+		"console.log(num)",
+		"// * convert into string",
+		"const newStr = String(str); ",
+		"console.log(newStr) // '{'a':1,'b':2,'c':3}'",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 7 | convert
+	"§s9": {
+	  "prefix": "js9-obj ---- sort |",
+	  "body": [
+		"// ! ==================",
+		"// ! sorting",
+		"// ! ==================",
+		"",
+		"// * sorting elements",
+		"",
+		"const obj = {",
+		"key3: 'value3',",
+		"key1: 'value1',",
+		"key2: 'value2'",
+		"};",
+		"",
+		"const sortedKeys = Object.keys(obj).sort();",
+		"const sortedObj = {};",
+		"",
+		"for (let key of sortedKeys) {",
+		"sortedObj[key] = obj[key];",
+		"}",
+		"",
+		"console.log(sortedObj);",
+		"// Output: {key1: 'value1', key2: 'value2', key3: 'value3'}",
+		""
+	  ],
+	  "description": "* => _"
+	}, // 9 | sorting
+	"-5": {
+	  "prefix": "jsii ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	},
+	// ! ==================================
+	// ! 6_Function
+	// ! ==================================
+	"6": {
+	  "prefix": "jd0-fnc ==================== function",
+	  "body": ["``"],
+	  "description": "declaration"
+	},
+	"§d1": {
+	  "prefix": "jd1-fnc ----- set |",
+	  "body": [
+		"// ! ==================",
+		"// ! set",
+		"// ! ==================",
+		"",
+		"// ? ==================",
+		"// ? value",
+		"// ? ==================",
+		"",
+		"// * definition of function",
+		"const func1 = (a) => { console.log(a) }",
+		"// * declaration of function",
+		"const func2 = (a) => console.log(a)",
+		"",
+		"// ? ==================",
+		"// ? values",
+		"// ? ==================",
+		"",
+		"const { uvp, price, special } = product.prop"
+	  ],
+	  "description": "* => _"
+	}, // 1 | set
+	"§d9": {
+	  "prefix": "jd9-fnc ----- add |",
+	  "body": [
+		"// * scope",
+		"",
+		"let n = 0 // global scope",
+		"let f = () => {",
+		"\t let n = 1 // local scope",
+		"}",
+		"f()",
+		"",
+		"// * scope lexical",
+		"",
+		"// ? New scope is created only when you create a new function",
+		"",
+		"var outerFunction  = function(){",
+		"\t\tif(true){",
+		"\t\t\tvar x = 5;",
+		"\t\t\t//console.log(y); //line 1, ReferenceError: y not defined",
+		"\t\t}",
+		"\t\tvar nestedFunction = function() {",
+		"\t\tif(true){",
+		"\t\t\tvar y = 7;",
+		"\t\t\tconsole.log(x); //line 2, x will still be known prints 5",
+		"\t\t}",
+		"\t\tif(true){",
+		"\t\t\tconsole.log(y); //line 3, prints 7",
+		"\t\t}",
+		"\t}",
+		"\t\treturn nestedFunction;",
+		"}",
+		"",
+		"var myFunction = outerFunction();",
+		"myFunction();",
+		"",
+		"// * scope chain",
+		"",
+		"var currentScope = 0; // global scope",
+		"(function () {",
+		"\tvar currentScope = 1,",
+		"\tone = 'scope1'",
+		"\t",
+		"\t(function () {",
+		"\t\tvar currentScope = 2,",
+		"\t\ttwo = 'scope2'",
+		"\t\t",
+		"\t\t(function () {",
+		"\t\t\tvar currentScope = 3,",
+		"\t\t\tthree = 'scope3'",
+		"\t\t\t",
+		"\t\t // climb up the scope chain to get one and two",
+		"\t\t}())",
+		"\t}())",
+		"}())",
+		"",
+		"// * closures",
+		"",
+		"// ? Closures in oop incapsulation",
+		"// ? Possability to save the value of function",
+		"// ? with each invoking of this function",
+		"",
+		"let count = 0",
+		"\tlet f = () => {",
+		"\t\t count++",
+		"\t}",
+		"f()"
+	  ],
+	  "description": "* => _"
+	}, // 10 | aditional
+	"-6": {
+	  "prefix": "jdii ======================== ",
+	  "body": [""],
+	  "description": "________________________"
+	}
+  }
