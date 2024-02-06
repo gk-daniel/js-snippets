@@ -47,7 +47,7 @@ This level is intended for describing classes and methods that solve specific ta
 
 #### 2. Actions
 
-_<em> test </em>_
+_<em> In the VS Code snippet implementation, when calling the snippet, a modal window opens where snippets are sorted in alphabetical order relative to the symbol we wrote. We can also use this to group snippets by categories. However, besides sorting, we can also insert a small comment that could carry a logical explanation of the snippet's action, something we usually can't see before executing the snippet. But since each statement carries an action, we can categorize them into specific actions, which you can find below. </em>_
 
 1. set
 2. get
