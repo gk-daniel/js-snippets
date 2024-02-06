@@ -2,8 +2,6 @@
 
 <p align="center">
   <img src="./00-config/02-assets/js_snippets.jpg" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
-  <br>
-  <a href="https://dn.gooko.org/vue/card/" target="_blank">JavaScript Snippets Hub</a>
 </p>
 
 
