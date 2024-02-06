@@ -11,9 +11,9 @@
 
 | Section              | Description                                |
 |----------------------|--------------------------------------------|
-|[01-config](./00-config/00-config.md) | Directory containing general information |
-|[02-scripts](./02-scripts/00-Introduction.md) | Directory containing scripts |
-|[03-style](./03-style/ITCSS.md) | Directory containing stylesheets |
+|[00-config](./00-config/intro.md) | Directory containing general information |
+|[01-key_based](./01-key_based/intro.md) | Directory containing key based approach |
+|[02_operation_based](./02_operation_based/intro.md) | Directory containing Operation based approach |
 
 </div>
 <br>
