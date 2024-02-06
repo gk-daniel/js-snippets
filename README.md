@@ -12,11 +12,9 @@
 
 | Section              | Description                                |
 |----------------------|--------------------------------------------|
-|[01-config](./01-config/01-config.md) | Directory containing general information |
+|[01-config](./00-config/00-config.md) | Directory containing general information |
 |[02-scripts](./02-scripts/00-Introduction.md) | Directory containing scripts |
 |[03-style](./03-style/ITCSS.md) | Directory containing stylesheets |
-|[04-components](./04-components/A-Design.md) | Directory containing Vue components |
-|[05-assets](./05-assets/FBF.md) | Directory for storing assets like images and fonts |
 
 </div>
 <br>
@@ -27,10 +25,7 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="./05-assets/01-docs/vue-logo.png" height="80px" width="100px"></td>
-    <td align="center"><img src="./05-assets/01-docs/a-design-logo.png" height="100px" width="110px"></td>
-    <td align="center"><img src="./05-assets/01-docs/itcss-logo.png" height="100px" width="110px"></td>
-    <td align="center"><img src="./05-assets/01-docs/bem.png"  height="100px" width="190px"></td>
+    <td align="center"><img src="./00-config/02-assets/js.png" height="80px" width="100px"></td>
   </tr>
   <tr>
     <td align="center">Vue.js</td>
