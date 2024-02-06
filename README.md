@@ -13,7 +13,7 @@
 |----------------------|--------------------------------------------|
 |[00-config](./00-config/intro.md) | Directory containing general information |
 |[01-key_based](./01-key_based/intro.md) | Directory containing key based approach |
-|[02_operation_based](./02_operation_based/intro.md) | Directory containing Operation based approach |
+|[02-operation_based](./02-operation_based/intro.md) | Directory containing Operation based approach |
 
 </div>
 <br>
