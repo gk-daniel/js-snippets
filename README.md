@@ -1,9 +1,9 @@
 ## JavaScript Snippets Hub
 
 <p align="center">
-  <img src="./05-assets/01-docs/app.png" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="./00-config/02-assets/js_snippets.jpg" alt="V-Card Demo" height="300" style="border: 1px solid white; display: block; margin: 0 auto;">
   <br>
-  <a href="https://dn.gooko.org/vue/card/" target="_blank">View a demo</a>
+  <a href="https://dn.gooko.org/vue/card/" target="_blank">JavaScript Snippets Hub</a>
 </p>
 
 
