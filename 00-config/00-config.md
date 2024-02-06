@@ -1,5 +1,5 @@
 ## 
-### [JavaScript Snippets Hub](../README.md) / 00-config
+### [home](../README.md) / 00-config
 ## 
 
 This section describes how to work with project 
