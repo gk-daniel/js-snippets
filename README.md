@@ -25,7 +25,7 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="./00-config/02-assets/js.png" height="120px" width="100px"></td>
+    <td align="center"><img src="./00-config/02-assets/js.png" height="100px" width="100px"></td>
   </tr>
   <tr>
     <td align="center">JavaScript</td>
