@@ -28,10 +28,7 @@
     <td align="center"><img src="./00-config/02-assets/js.png" height="80px" width="100px"></td>
   </tr>
   <tr>
-    <td align="center">Vue.js</td>
-    <td align="center">Atomic Design</td>
-    <td align="center">ITCSS</td>
-    <td align="center">BEM</td>
+    <td align="center">JavaScript</td>
   </tr>
 </table>
 
