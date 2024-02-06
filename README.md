@@ -25,9 +25,11 @@
 
 <table align="center">
   <tr>
+    <td align="center"><img src="./00-config/02-assets/vs_code.png" height="100px" width="100px"></td>
     <td align="center"><img src="./00-config/02-assets/js.png" height="100px" width="100px"></td>
   </tr>
   <tr>
+    <td align="center">Visual Studio Code</td>
     <td align="center">JavaScript</td>
   </tr>
 </table>
