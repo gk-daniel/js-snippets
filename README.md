@@ -44,6 +44,6 @@
 
 
 
-## Additional Information 
+## Additional Information
 
-In this Vue 3 project, we showcase the elegance of simplicity and efficiency, utilizing CDN connections exclusively for seamless deployment. Embracing the Atomic Design structure, our components are thoughtfully organized into distinct levels—atoms, molecules, organisms, and templates—fostering reusability, maintainability, and a systematic approach to building scalable applications. Moreover, you can enjoy an example of using a YouTube video for the background using its setting in form of properties and configurate project style vie ITCSS structure.
+The main goal of this project 🎯 is to find the quickest and most effective ways to write JavaScript code 💻. We know finding the single best method might not be possible, but we aim to gather all the top tips and tricks 🏅. This way, anyone who finds this project can find a coding style that suits them best 👨‍💻👩‍💻. It's also a place to share my own experiences with coding snippets 📝 and to welcome suggestions from others 🤝. I'm excited to add any good ideas to the project 🌐, making it more useful and adaptable for different coding tasks 🔄.
