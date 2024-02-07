@@ -1,5 +1,5 @@
 ##
-### [home](../README.md) / 02-operation_based
+### [home](../README.md) / 02-operation
 ##
 
 To familiarize yourself with this chapter, please visit the initial explanation on which the idea 💡 is based [introduction](../00-config/intro.md) 📖 .

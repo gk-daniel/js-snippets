@@ -12,8 +12,8 @@
 | Section              | Description                                |
 |----------------------|--------------------------------------------|
 |[00-config](./00-config/intro.md) | Directory containing general information |
-|[01-action_based](./01-action_based/intro.md) | Directory containing action based approach |
-|[02-operation_based](./02-operation_based/intro.md) | Directory containing Operation based approach |
+|[01-action](./01-action/intro.md) | Directory containing action based approach |
+|[02-operation](./02-operation/intro.md) | Directory containing Operation based approach |
 
 </div>
 <br>

@@ -1,5 +1,5 @@
 ##
-### [home](../README.md) / 01-action_based
+### [home](../README.md) / 01-action
 ##
 
 To familiarize yourself with this chapter, please visit the initial explanation on which the idea 💡 is based [introduction](../00-config/intro.md) 📖 .
@@ -36,19 +36,19 @@ In the next section, we can consider examples of how it would work.
 1. Number
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/number.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/number.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 2. String
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/string.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/string.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 3. Boolean
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/boolean.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/boolean.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 ## 🧩 | Complex Data
@@ -58,19 +58,19 @@ In the next section, we can consider examples of how it would work.
 1. Array
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/array.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/array.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 2. Object
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/object.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/object.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 3. Function
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/function.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
+  <img src="../00-config/02-assets/01-action/function.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;">
 </p>
 
 ## 🌍 | Universe Data
@@ -79,12 +79,12 @@ This category has not been defined as unlike the previous ones, it is not standa
 
 ## 🟰 | Result
 
-Below is an example of a snippet pack `javascript.json` that you can find in the folder `01-action_based`. Note that the following screenshots present the unfolded JSON for better demonstration.
+Below is an example of a snippet pack `javascript.json` that you can find in the folder `01-action`. Note that the following screenshots present the unfolded JSON for better demonstration.
 
 <table align="center">
   <tr>
-    <td align="center"><img src="../00-config/02-assets/01-action_based/preview-1.png" height="700px" width="300px"></td>
-    <td align="center"><img src="../00-config/02-assets/01-action_based/preview-2.png" height="700px" width="300px"></td>
+    <td align="center"><img src="../00-config/02-assets/01-action/preview-1.png" height="700px" width="300px"></td>
+    <td align="center"><img src="../00-config/02-assets/01-action/preview-2.png" height="700px" width="300px"></td>
   </tr>
   <tr>
     <td align="center">I Part</td>

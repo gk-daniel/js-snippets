@@ -7,7 +7,7 @@
 The main concept of the project is to base snippets on the keyboard keys from the left hand and link them with JavaScript logic. This means that we can conditionally divide JavaScript into simple ✨, complex 🧩 , and universal 🌍 data, meaning we have three levels 🎚️, and each keyboard row can be responsible for each of these levels. So, we can end up with three rows of keyboard 🎹 : "qwer", "asdf", "yxcv".
 
 <p align="center">
-  <img src="../00-config/02-assets/01-action_based/keyboard.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;" height="220" width="500">
+  <img src="../00-config/02-assets/01-action/keyboard.png" alt="Keyboard" style="border: 1px solid white; display: block; margin: 0 auto;" height="220" width="500">
 </p>
 
 <b> 1️⃣ | Simple data types: qwer </b>
